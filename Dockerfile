@@ -23,6 +23,6 @@ RUN apt-get update && \
 	dvipng \
 	graphviz
 
-RUN wget https://github.com/wpilibsuite/frc-docs/blob/master/source/requirements.txt
+RUN wget https://raw.githubusercontent.com/wpilibsuite/frc-docs/master/source/requirements.txt
 
 RUN pip3 install -r requirements.txt
